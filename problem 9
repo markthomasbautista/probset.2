@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int rows, column, r, c;
+	
+	cout<<"Enter how many rows: " <<endl;
+	cin>> rows;
+	cout<<"Enter how many column: " <<endl;
+	cin>> column;
+	
+	for(int r=1; r<=rows; r++)
+	{		
+	for(int c=1; c<=column; c++)
+	{
+	cout<<"*";
+	}
+	cout<<endl;
+	}
+	return 0;
+}
