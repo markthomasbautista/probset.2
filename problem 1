@@ -1,0 +1,40 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	char p;
+	int h;
+	int b;
+
+	cout<<"Enter the package: " <<endl;
+	cin>>p;
+	cout<<"Enter the number of hours: " <<endl;
+	cin>>h;
+
+	switch(p)
+	{
+	case 'a':
+	b = 995;
+	if(h > 10)
+	{
+	b = b + (h - 10 ) * 20;
+	}
+	break;
+	case 'b':
+	b = 1495;
+	if(h > 20)
+	{
+	b = b + (h - 20 ) * 10;
+	}
+	break;
+	case 'c':
+	b = 1995;
+	break;
+	default:
+	cout<<"Invalid" <<endl;
+	}
+	cout<<"The total bill is: "<<b <<endl;
+
+    return 0;
+
+}
