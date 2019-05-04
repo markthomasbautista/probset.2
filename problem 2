@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+	int pg, cg;
+	float amnt_due;
+	float chrge = 1.10;
+	float ltechrge = 20;
+
+	cout<<"Enter the previous gallon consumption: " << endl;
+	cin>>pg;
+	cout<<"Enter the current gallon consumption: " << endl;
+	cin>>cg;
+	amnt_due = 35;
+	amnt_due = amnt_due + cg * chrge;
+
+	if(pg > 0)
+	{
+		amnt_due = amnt_due + ltechrge;
+	}
+	cout << "The total bill is: " <<amnt_due <<endl;
+
+	return 0;
+}
