@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n1, s, i;
+
+	cout<<"Enter a whole number: ";
+	 cin>>n1;
+
+	while(n1 > 0)
+	{
+	s = 0;
+
+	for(i=1; i<=n1; i++)
+	{
+		s += i;
+	}
+
+	cout<<"Your sum 1 to a number only " <<n1<<" is: " <<s <<endl;
+
+	cout<<"Enter a number: ";
+	cin>>n1;
+	}
+
+	cout<<"Thank you!";
+
+	return 0;
+}
