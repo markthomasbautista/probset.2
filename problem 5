@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int mult = 1;
+	int n = 1;
+	
+	while(n <= 30)
+	{
+	cout<<n;
+	n = n + multr;
+		
+	if(n >= 10)
+	{
+		mult = 2;
+	}
+		
+	if(n <= 30)
+	{
+	cout<<",";
+	}
+	}
+	
+	return 0;
+	
+}
