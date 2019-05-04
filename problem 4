@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n1, n2, n3, lrgst;
+	
+	cout<<"Enter the value of 1st Number: " <<endl;
+	cin>>n1;
+	cout<<"Enter the value of 2nd Number: " <<endl;
+	cin>>n2;
+	cout<<"Enter the value of 3rd Number: " <<endl;
+	cin>>n3;
+	
+	if(n1 > n2)
+	{
+		lrgst = n1;
+	}
+	else if(n2 > n1)
+	{
+		lrgst = n2;
+	}
+
+	if(lrgst > n3)
+	{
+		lrgst = lrgst;
+	}
+	else
+	{
+		lrgst = n3;
+	}
+	
+	cout<<"The largest among the three numbers is : "<<lrgst <<endl;
+	
+	return 0;
+}
