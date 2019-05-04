@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int a, b = 0, c = 1, d;
+
+	cout << "NEXT 20 Fibonacci numbers (after 0 and 1) is " << endl;
+
+	for (a = 0; a < 22; a++)
+	{
+	if (a <= 1)
+   	d = a;
+	else
+	{
+	d = b + c;
+	b = c;
+	c = d;
+	}
+	cout << d << ", ";
+	}
+
+
+	return 0;
+}
